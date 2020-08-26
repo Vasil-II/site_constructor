@@ -2,9 +2,9 @@ import image from './assets/deer.jpg';
 import {TitleBlock, ImageBlock, TextBlock, TextColumnsBlock} from './classes/blocks.js'
 
 export const model = [
-  new TitleBlock('Демопроект "Конструктор Сайтов"', {
+  new TitleBlock('The Demo Project "Site Constructor"', {
     tag: 'h2',
-    styles: 'background: linear-gradient(to top left, blue, pink); color: #ffff; text-align:center'
+    styles: 'background: linear-gradient(to top left, darkred , pink); color: #ffff; text-align:center'
   }),
   new ImageBlock(image, {
     styles: 'padding: 3rem 0; display: flex; justify-content: center;',
