@@ -27,7 +27,7 @@ export class Sidebar {
     const value = event.target.value.value
     const styles = event.target.styles.value
 
-    const Construct = type === 'text' ? TextBlock : TitleBlock
+    const Construct = type === 'Add text' ? TextBlock : TitleBlock
     const newBlock = new Construct(value, {styles})
 
     this.update(newBlock)
