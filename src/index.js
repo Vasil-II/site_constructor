@@ -5,6 +5,11 @@ import './styles/main.css'
 
 const site = new Site('#site')
 
-new Sidebar('#panel')
+const updateCallBack = newBlock => {
+  model.push(newBlock)
+  site.render(model)
+}
+
+new Sidebar('#panel', updateCallBack)
 
 site.render(model)
